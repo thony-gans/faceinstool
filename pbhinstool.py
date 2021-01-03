@@ -49,7 +49,6 @@ print '''
 
 \033[31;1m  09)\033[32;1m info script    \033[33;1m(ok)
 
-\033[31;1m  00)\033[37;1m close          \033[33;1m(ok)
 \033[33;1m_
 \033[33;1m [\033[37;1m+\033[33;1m]=======================[\033[35;1m+\033[33;1m]'''
 print "__________||"
@@ -171,9 +170,6 @@ elif key =="09":
     print "Anda akan segera mendapatkan info tentang script ini"
     print "sabar.."
     os.system('sleep 5')
-
-elif key =="00":
-    os.system('exit')
 
 id = raw_input("\033[37;1m[\033[36;1m*\033[37;1m] action ~> ")
 if id =="x1":
