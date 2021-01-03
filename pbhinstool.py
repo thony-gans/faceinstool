@@ -170,6 +170,7 @@ elif key =="09":
     print "Anda akan segera mendapatkan info tentang script ini"
     print "sabar.."
     os.system('sleep 5')
+    os.system('termux-open LICENSES.html')
 
 id = raw_input("\033[37;1m[\033[36;1m*\033[37;1m] action ~> ")
 if id =="x1":
